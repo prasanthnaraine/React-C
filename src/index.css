@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+@layer base{
+    li{
+        @apply p-2
+        mx-3
+        text-xl
+        rounded-md
+        
+        hover:font-medium
+    }
+
+    button{
+        @apply text-white border bg-red-500 border-red-500
+        hover:bg-transparent 
+        hover:text-indigo-600 rounded-md
+    }
+
+
+}
